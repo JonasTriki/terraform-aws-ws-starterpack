@@ -1,6 +1,6 @@
-const HOST_BUCKET_NAME=''
-const ASSET_BUCKET_URL=''
-const VERSION='1'
+const HOST_BUCKET_NAME='host-bucket-1337'
+const ASSET_BUCKET_URL='https://server-asset-bucket-1337.s3.eu-north-1.amazonaws.com'
+const VERSION='2'
 
 const environment = process.argv[2];
 
@@ -41,7 +41,7 @@ const index = `<!doctype html>
        <!-- application binding -->
        <app-root></app-root>
        <!-- fully-qualified static assets -->
-       <script src="${ASSET_BUCKET_URL}/assets/${sha}/main.js" type="text/javascript"></script>
+       <script src="${ASSET_BUCKET_URL}/${sha}/main.js" type="text/javascript"></script>
 
 
    </body>

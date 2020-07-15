@@ -1,5 +1,5 @@
-const ASSET_BUCKET_NAME=''
-const VERSION='1'
+const ASSET_BUCKET_NAME='server-asset-bucket-1337'
+const VERSION='2'
 
 var AWS = require('aws-sdk');
 var fs = require('fs');

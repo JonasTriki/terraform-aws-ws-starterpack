@@ -25,6 +25,9 @@ function App() {
       <ColorCircle base={color}/>
       <div>{`Build created at: ${dateformat(timestamp)}`}</div>
       <div>{`Build deploy at: ${dateformat(env.CREATED_AT)}`}</div>
+      <div>
+        <img src="https://media2.giphy.com/media/8m4R4pvViWtRzbloJ1/giphy.gif" />
+      </div>
     </div>
   );
 }
